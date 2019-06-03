@@ -1,0 +1,90 @@
+# 見出し 1
+
+## 見出し 2
+
+### 見出し 3
+
+a**太字**b
+
+a*斜字*b
+
+~~削除します~~
+
+---
+
+線を引く
+
+---
+
+- 箇条書き 1
+- 箇条書き 2
+  - 箇条書き 3
+  - 箇条書き 4
+    - 箇条書き 5
+    - 箇条書き 6
+- 箇条書き 7
+  - 箇条書き 8
+
+1. 数字付き 1
+1. 数字付き 2
+1. 数字付き 3
+
+> 引用
+>
+> > 二重引用
+>
+> 二重引用あとは一つ行空けた方が良いみたい
+
+ソースコードも書ける。実行はできない。
+
+【Python】
+
+```python
+# コメント
+import numpy
+import pandas
+
+print('Hello World')
+```
+
+【C 言語】
+
+```c
+// コメント
+#include<stdio.h>
+
+int main(){
+    printf("Hello World")
+}
+```
+
+【C++】
+
+```c++
+// コメント
+#include <iostream>
+using namespace std;
+
+int main(void){
+    cout << "Hello World" << endl
+}
+```
+
+C と C++は同じ色付けだね。（そりゃそーか）
+
+---
+
+改行するときはスペース 2 つ入れる ↓
+
+【拡張機能：HTML や PDF に変換】  
+<http://www.atmarkit.co.jp/ait/articles/1804/27/news034.html>
+
+[リンク ⇒ 拡張機能：HTML や PDF に変換](http://www.atmarkit.co.jp/ait/articles/1804/27/news034.html)
+
+```mermaid
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+```
+
+![aa](2019-06-03-22-48-28.png)
